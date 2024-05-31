@@ -1,0 +1,35 @@
+#add-user-data-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-user-data-form {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+#add-user-data-form label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#add-user-data-form input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#add-user-data-form input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+}

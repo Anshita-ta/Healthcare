@@ -1,0 +1,68 @@
+
+body {
+	background-image: url('bg1.png');
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+form {
+	width: 50%;
+	height: 425px;
+	margin: 0 auto;
+	margin-top: 75px;
+	text-align: center;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 50px;
+}
+
+/* label {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+} */
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: none;
+	box-sizing: border-box;
+}
+
+input[type="radio"] {
+	margin-right: 5px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: skyblue;
+	color: black;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	color: darkblue;
+	background-color: aqua;
+}
+
+@media (max-width: 600px) {
+	form {
+		width: 80%;
+	}
+}
+

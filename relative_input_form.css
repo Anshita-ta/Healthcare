@@ -1,0 +1,48 @@
+#add-user-form-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  display: block;
+  width: 200px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-user-data-form {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+}
+
+label, input[type="text"], input[type="number"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-btn {
+	margin: 10px 20px 0px 20px;
+	display: block;
+	width: 92%;
+	font-size: 20px;
+	padding: 10px;
+}
